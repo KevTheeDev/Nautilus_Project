@@ -11,7 +11,12 @@ class Nautilus extends React.Component {
   render() { 
     return ( 
         <div>
-          <img src={hp_prime} className="App-tablet" alt="tablet" />
+          <div>
+          <img id="imgpage"
+          src={hp_prime} 
+          className="App-tablet" 
+          alt="tablet"  />
+          </div>
 
         </div>
 
