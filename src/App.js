@@ -3,16 +3,20 @@ import logo from './logo.svg';
 import hp_prime from './assets/hp_prime.jpg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-        <img src={hp_prime} className="App-tablet" alt="tablet" />
+class Nautilus extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {  }
+  }
+  render() { 
+    return ( 
+        <div>
+          <img src={hp_prime} className="App-tablet" alt="tablet" />
 
-        <a></a>
-    </div>
-  );
+        </div>
+
+     );
+  }
 }
-
-export default App;
+ 
+export default Nautilus;
