@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import NautiWireframe from './NautiWireframe.png';
+import NautiWireframe from './assets/NautiWireframe.png';
 
 class Nautilus extends React.Component {
   constructor(props) {
