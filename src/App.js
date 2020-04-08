@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
-import hp_prime from './assets/hp_prime.jpg';
 import './App.css';
+import NautiWireframe from './NautiWireframe.png';
 
 class Nautilus extends React.Component {
   constructor(props) {
@@ -13,7 +12,7 @@ class Nautilus extends React.Component {
         <div>
           <div>
           <img id="imgpage"
-          src={hp_prime} 
+          src={NautiWireframe} 
           className="App-tablet" 
           alt="tablet"  />
           </div>
